@@ -1,8 +1,6 @@
-# NooraNet RedTeam material
-
 ****
 
-### syllabus
+# Nooranet Ream Team Course
 
 ---
 
